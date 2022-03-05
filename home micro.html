@@ -1,0 +1,284 @@
+
+<html>
+<head></head>
+<title>home</title>
+<!-- jquery csn -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<body>
+<form form action ="findblood.php" method = "post"><center style="background:white"></center></br>
+    <center style="margin:auto ;background-image:url('bl2.jfif');background-repeat:no-repeat;background-size:cover;"><b>
+        <center>
+          <h1>BLOOD DONORS KERALA<h1>
+        </center><b><br><br><br>
+          <h3>contact us :+91 7511568709<h3><br><br><br>
+              <h2>"Blood Donation will cost you nothing, but it will save a life!”<h2>
+                  <style>
+                    .button {
+                      background-color: #4CAF50;
+                      /* green */
+                      border: none;
+                      color: white;
+                      padding: 16px 32px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      font-size: 16px;
+                      margin: 4px 2px;
+                      transition-duration: 0.4s;
+                      cursor: pointer;
+                    }
+                 select {
+                      /* Reset Select */
+                      appearance: none;
+                      outline: 0;
+                      border: 0;
+                      box-shadow: none;
+                      /* Personalize */
+                      flex: 1;
+                      padding: 0 1em;
+                      color: #000;
+                      background-color: var(--darkgray);
+                      background-image: none;
+                      cursor: pointer;
+                    }
+
+                    /* Remove IE arrow */
+                    select::-ms-expand {
+                      display: none;
+                    }
+
+                    /* Custom Select wrapper */
+                    .select {
+                      position: relative;
+                      display: flex;
+                      width: 20em;
+                      height: 3em;
+                      border-radius: .25em;
+                      overflow: hidden;
+                      color: black;
+                    }
+
+                    /* Arrow */
+                    .select::after {
+                      content: '\25BC';
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      padding: 1em;
+                      background-color: #34495e;
+                      transition: .25s all ease;
+                      pointer-events: none;
+                    }
+
+                    /* Transition */
+                    .select:hover::after {
+                      color: #f39c12;
+                    }
+
+                    /* Other styles*/
+                    .temp1 {
+                      color: #fff;
+                      background: var(--background-gradient);
+                    }
+
+                    h1 {
+                      margin: 0 0 0.25em;
+                    }
+
+                    .tempa {
+                      font-weight: bold;
+                      color: var(--gray);
+                      text-decoration: none;
+                      padding: .25em;
+                      border-radius: .25em;
+                      background: white;
+                    }
+                  </style>
+                  <button id="reg_btn" class="button button2">Regiter</button>
+
+                  <button id="event_btn" class="button button2">Events</button>
+                  <button id="req_btn" class="button button2">request blood</button>
+                  
+                  <table style="background:#ffffff70;border-radius:10px;padding:20px">
+                    <tr>
+                      <td><label>Blood group</label></td>
+                      <td>
+                        <div class="select">
+                          <select>
+                            <option value="1"></option>
+
+                              <option value="2">A+VE</option>
+                            <Option value="3">AB-VE</option>
+                            <option value="4">AB+VE</option> 
+                            <option value="5">A-VE</option>
+                            <option value="6">A+VE</option>
+                            <option value="7">B-VE</option>
+                            <option value="8">B+VE</option>
+                            <Option value="9">O-VE</option>
+                            <option value="10">O+VE</option>
+                          </select>
+                        </div>
+
+                      </td>
+                    </tr>
+
+                    </i></label></br></br></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr></br></br>
+
+                    <tr>
+                      <td><label>Districts</label></td>
+                      <td>
+                        <div class="select">
+                          <select>
+                             <option value="1"></option>
+                            <option value="2">Alappuzha</option>
+                            <option value="3">Ernakulam</option>
+                            <option value="4">Idukki</option>
+                            <option value="5">Kannur</option>
+                             <option value="6">Kasargod</option>
+                            <option value="7">Kollam</option>
+                            <option value="8">Kottayam</option>
+                            <option value="9">Kozhikode</option>
+                            <Option value="10">Malappuram</option>
+                            <option value="11">Palakkad</option>
+                            <option value="12">Pathanamthitta</option>
+                            <option value="13">Thiruvananthapuram</option>
+                            <Option value="14">Thissur</option>
+                            <option value="15">Wayanad</option>
+                       </select>
+                        </div> <tr>
+                      <td><label>Taluk</label></td>
+                      <td>
+                        <div class="select">
+                          <select>
+                            <option value="1"></option>
+                            <option value="2">Ambalappuzha</option>
+                            <option value="3">chenganoor</option>
+                             <option value="4">cherthala</option>
+                             <option value="5">karthikappally</option>
+                             <option value="6">kuttanad</option>
+                             <option value="7">mavelikkara</option>
+                             <option value="8">Aluva </option>
+                            <option value="9">kanayannur</option>
+                            <option value="10">kochi</option>
+                             <option value="11">kothamangalam</option>
+                             <option value="12">kunnathunad</option>
+                             <option value="13">Muvattupuzha</option>
+                             <option value="14">North paravor</option>
+                             <option value="15">Devikulam</option>
+                            <option value="16">idukki</option>
+                            <option value="17">peermade</option>
+                             <option value="18">Thodupuzha</option>
+                             <option value="19">Udumbanchola</option>
+                             <option value="20">Iritty</option>
+                             <option value="21">kannur</option>
+                             <option value="22">payyannur</option>
+                            <option value="23">Taliparamba</option>
+                            <option value="24">Thalassery</option>
+                             <option value="25">Hosdurg</option>
+                             <option value="26">Kasargod</option>
+                             <option value="27">Majeshwaram</option>
+                             <option value="28">vellarikundu</option>
+                             <option value="29"karunagappally></option>
+                            <option value="30">Kollam</option>
+                            <option value="31">kottarakkara</option>
+                             <option value="32">kunnathoor</option>
+                             <option value="33">pathanapuram</option>
+                             <option value="35">punalur</option>
+                             <option value="36">changanasserry</option>
+                             <option value="37">kanjirappally</option>
+                            <option value="38">Kottayam</option>
+                            <option value="39">Meenachil</option>
+                             <option value="40">vaikom</option>
+                             <option value="41">Eranad</option>
+                              <option value="42">konodotty</option>
+                             <option value="43">Nilambur</option>
+                             <option value="44">perinthalmanna</option>
+                             <option value="45">ponnani</option>
+                            <option value="46">Thiroorangadi</option>
+                            <option value="47">Thirur</option>
+                             <option value="48">Alathoor</option>
+                             <option value="49">Chittur</option>
+                             <option value="35">Mannarkkad</option>
+                             <option value="36">ottappalam</option>
+                             <option value="37">Palakkad</option>
+                            <option value="38">Kottayam</option>
+                            <option value="39">Meenachil</option>
+                             <option value="40">vaikom</option>
+                             <option value="41">Eranad</option>
+                             
+
+
+                          </select>
+                        </div>
+
+                      </td>
+                    </tr>
+
+                    </i></label></br></br></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr></br></br>
+                    </select></td>
+                    </tr>
+
+                    </i></label></br></br></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+
+
+                    <tr>
+                      <td></td>
+                      <td>
+                        <center><label>
+                            <style>
+                              .button {
+                                background-color: #4CAF50;
+                                border: none;
+                                color: white;
+                                padding: 15px 32px;
+                                text-align: center;
+                                text-decoration: none;
+                                display: inline-block;
+                                font-size: 16px;
+                                margin: 4px 2px;
+                                cursor: pointer;
+                              }
+                            </style>
+<input type="submit" class="button" name ="Find blood">
+                          </label></center>
+                      </td>
+                    </tr>
+                  </table>
+</body>
+<script>
+  $("#reg_btn").click((e) => {
+    e.preventDefault();
+    window.location.href = "donarregistration.html";
+  })
+  $("#event_btn").click((e) => {
+    e.preventDefault();
+    window.location.href = "event.html";
+  })
+  
+  $("#req_btn").click((e) => {
+    e.preventDefault();
+    window.location.href = "requestblood.html";
+  })
+
+</script>
+
+</html>
